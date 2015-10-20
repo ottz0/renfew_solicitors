@@ -8497,6 +8497,12 @@ Thene styles
 #renfrew-main-header {
   padding-top: 125px;
 }
+@media (max-width: 479px) {
+  #renfrew-main-header {
+    padding-top: 25px;
+    text-align: center;
+  }
+}
 @media (max-width: 959px) {
   #renfrew-main-header {
     text-align: center;
@@ -8510,9 +8516,22 @@ Thene styles
   font-weight: 700;
   color: #e0a833;
 }
-@media (max-width: 959px) {
+@media (max-width: 479px) {
   #renfrew-main-header h1 {
-    font-size: 4.8em;
+    font-size: 3.6em;
+    text-align: center;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  #renfrew-main-header h1 {
+    font-size: 4.6em;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+  #renfrew-main-header h1 {
+    font-size: 6.6em;
+    text-align: center;
   }
 }
 .uk-cover-background {
@@ -8543,6 +8562,16 @@ Thene styles
   vertical-align: -22%;
   color: #792d79;
 }
+@media (max-width: 479px) {
+  .renfrew-icon-xlarge {
+    font-size: 3.5em;
+  }
+}
+@media (max-width: 767px) {
+  .renfrew-icon-xlarge {
+    font-size: 5em;
+  }
+}
 #services-top {
   padding-bottom: 20px;
 }
@@ -8552,6 +8581,7 @@ Loction section
 
 ***************************/
 #location {
+  height: 100vh;
   height: 600px;
 }
 #location-txt {
@@ -8569,7 +8599,6 @@ Contact section
 
 ***************************/
 #contact {
-  height: 100vh;
   background-image: url('../images/contact-bg.gif');
   background-repeat: repeat repeat;
 }
@@ -8602,7 +8631,7 @@ Google Maps
   -khtml-border-radius: 999px;
   -webkit-border-radius: 999px;
 }
-@media (max-width: 767px) {
+@media (max-width: 479px) {
   #map {
     margin-top: 0px;
     width: 100%;
@@ -8611,6 +8640,23 @@ Google Maps
     -moz-border-radius: 0px;
     -khtml-border-radius: 0px;
     -webkit-border-radius: 0px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  #map {
+    margin-top: 0px;
+    width: 100%;
+    height: 200px;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -khtml-border-radius: 0px;
+    -webkit-border-radius: 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+  #map {
+    width: 320px;
+    height: 320px;
   }
 }
 /*# sourceMappingURL=renfre-main.css.map */
