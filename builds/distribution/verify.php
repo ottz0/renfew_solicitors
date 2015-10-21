@@ -2,9 +2,7 @@
     <head>
         <title>Renfew Solicitors - Newcastle NSW</title>
         <meta name="viewport" content="width=device-width">
-        <!-- build:css css/renfrew-main.min.css -->
-        <link rel="stylesheet" href="css/renfrew-main.css" />
-        <!-- /build -->
+        <link rel="stylesheet" href="css/renfrew-main.min.css">
         <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,300|Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
     </head>
     <body style="background-color:#3e1c3e;" class="uk-height-1-1">
