@@ -8537,7 +8537,7 @@ Thene styles
 .uk-cover-background {
   background-image: url("../images/renfrew-main-bg.jpg");
 }
-.renfrew-home-subtitle {
+.renfrew-subtitle {
   font-family: 'Merriweather', serif;
   font-size: 1.3em;
   font-weight: 400;
@@ -8546,7 +8546,7 @@ Thene styles
   margin-top: -35px;
 }
 @media (max-width: 959px) {
-  .renfrew-home-subtitle {
+  .renfrew-subtitle {
     text-align: center;
   }
 }
@@ -8582,7 +8582,6 @@ Loction section
 ***************************/
 #location {
   height: 100vh;
-  height: 600px;
 }
 #location-txt {
   margin-top: 105px;
@@ -8615,6 +8614,21 @@ footer p {
   font-size: 1em;
   color: #792d79;
   padding-top: 35px;
+}
+/***************************
+
+Verify page
+
+***************************/
+#verify {
+  margin-top: -155px;
+}
+.renfrew-verify {
+  font-family: 'Merriweather', serif;
+  font-size: 1.3em;
+  font-weight: 400;
+  color: #e0a833;
+  letter-spacing: 0.3em;
 }
 /***************************
 

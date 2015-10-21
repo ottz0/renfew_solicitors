@@ -1,11 +1,23 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-</head>
+<html class="uk-height-1-1">
+    <head>
+        <title>Renfew Solicitors - Newcastle NSW</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/renfrew-main.css" />
+        <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,300|Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
+    </head>
+    <body style="background-color:#3e1c3e;" class="uk-height-1-1">
 
-<body>
-This is verified
-</body>
+    <section>
+		<div class="uk-text-center uk-vertical-align">
+			<div class="uk-container-center uk-vertical-align-middle">
+				<img src="images/renfrew-solicitors-lg.gif"><br /><br />
+				<span class="renfrew-verify uk-text-align-center">
+					Thank you for your enquiry.<br />
+					We'll be in touch soon.</span><br /><br />
+				<a href="/" class="uk-button uk-button-primary uk-button-large" type="button">Continue</a>
+			</div>
+		</div>
+	</section>
+    
+    </body>
 </html>

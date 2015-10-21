@@ -41,7 +41,7 @@
             <div id="renfrew-main-header" data-uk-parallax="{y: '200', opacity: '0'}">           
                 <h1>Renfrew</br />
                 Solicitors</h1>
-                <span class="renfrew-home-subtitle">Louise Renfrew - Solicitor (Principal), BALLB, BA.ED (Art)</span>
+                <span class="renfrew-subtitle">Louise Renfrew - Solicitor (Principal), BALLB, BA.ED (Art)</span>
             </div>
         </div>
     </section>  
@@ -128,57 +128,34 @@
                     <p class="uk-text-center">Just fill out the form below and we'll get back to you as soon as possible.</p>
                 </header>
                 
-                
-                
-                
-                
-                
                 <!-- Form -->
-                <div>
-<form action="#contact" method="POST" class="uk-form uk-form-stacked">
-<div class="uk-form-row">
-
-<div class="uk-form-controls">
-<label class="uk-form-label" for="Name"></label>
-<input type="text" name="name" placeholder="Name" value="<?php echo !empty($name)?$name:''; ?>" class="uk-form-large uk-width-1-1 uk-margin-bottom">
-<label class="uk-form-label" for="Email"></label>
-<input type="text" name="email" placeholder="Email" class="uk-form-large uk-width-1-1 uk-margin-bottom">
-<label class="uk-form-label" for="Comments"></label>
-
-
-<textarea cols="" rows="10" placeholder="Comments" name="message" class="uk-form-large uk-width-1-1 uk-margin-bottom"><?php echo !empty($message)?$message:''; ?></textarea>
-
-
-
-
-</div>
-
-</div>
-<div>
-
-
-<?php if(!empty($errMsg)): ?>
-    <div class="uk-alert uk-alert-danger uk-text-center">
-    	<?php echo $errMsg; ?>
-    </div>
-<?php endif; ?>
-
-<div class="g-recaptcha" data-sitekey="6Le5Lg8TAAAAAMQB4ewzMKQIrhlOEk7pl9OaMTae"></div>
-
-</div>
-<button  type="submit" name="submit" value="SUBMIT" class="uk-button uk-button-large uk-button-primary uk-width-1-1 uk-margin-bottom uk-margin-top">Send</button>
-</form>
-                </div>
+                <form action="#contact" method="POST" class="uk-form uk-form-stacked">
+                    <div class="uk-form-row">
+                        <div class="uk-form-controls">
+                            <label class="uk-form-label" for="Name"></label>
+                            <input type="text" name="name" placeholder="Name" required value="<?php echo !empty($name)?$name:''; ?>" class="uk-form-large uk-width-1-1 uk-margin-bottom">
+                            <label class="uk-form-label" for="Email"></label>
+                            <input type="email" name="email" required placeholder="Email" class="uk-form-large uk-width-1-1 uk-margin-bottom">
+                            <label class="uk-form-label" for="Comments"></label>
+                            <textarea cols="" rows="10" placeholder="Comments" required name="message" class="uk-form-large uk-width-1-1 uk-margin-bottom"><?php echo !empty($message)?$message:''; ?></textarea>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <?php if(!empty($errMsg)): ?>
+                            <div class="uk-alert uk-alert-danger uk-text-center">
+                                <?php echo $errMsg; ?>
+                            </div>
+                        <?php endif; ?>
+                        <div class="g-recaptcha" data-sitekey="6Le5Lg8TAAAAAMQB4ewzMKQIrhlOEk7pl9OaMTae"></div>
+                    </div>
+                    <button type="submit" name="submit" value="SUBMIT" class="uk-button uk-button-large uk-button-primary uk-width-1-1 uk-margin-bottom uk-margin-top">Send</button>
+                </form>
                 <!-- /Form -->
-            	
-            
-          
-            
-            
-            
-            
-            </div>
+    
         </div>
+    </div>
+    
     </section>
 
 	<div style="clear: both;"></div>
@@ -186,12 +163,6 @@
     <footer>
         <p class="uk-text-center">Copyright &copy; <script>document.write(new Date().getFullYear())</script>. Renfrew Solicitors. All Rights Reserved.</p>
     </footer>
-
-
-   
-
-
-
 
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/uikit.min.js"></script>
@@ -216,11 +187,5 @@
       }
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
-
-
-
-
-
-
     </body>
 </html>
