@@ -12,7 +12,7 @@ if(isset($_POST['submit'])):
 		$message = !empty($_POST['message'])?$_POST['message']:'';
         if($responseData->success):
 			//contact form submission code
-			$to = 'ottz@aapt.net.au';
+			$to = 'admin@renfrewsolicitors.com.au';
 			$subject = 'A new contact has been submitted';
 			$htmlContent = "
 				<h1>Contact details</h1>
