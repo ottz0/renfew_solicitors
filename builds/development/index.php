@@ -3,8 +3,7 @@
 <html>
     <head>
         <title>Renfew Solicitors - Newcastle NSW</title>
-        <meta name="viewport" content="width=device-width">
-       
+        <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0" />
         <!-- build:css css/renfrew-main.min.css -->
         <link rel="stylesheet" href="css/renfrew-main.css" />
         <!-- /build -->
@@ -25,6 +24,9 @@
                     </li>
                     <li>
                         <a href="#services" data-uk-smooth-scroll="{offset:90}">Services</a>
+                    </li>
+                    <li>
+                        <a href="#conveyancing" data-uk-smooth-scroll="{offset:90}">Conveyancing</a>
                     </li>
                     <li>
                         <a href="#location" data-uk-smooth-scroll="{offset:90}">Location</a>
@@ -83,11 +85,11 @@
                 <div class="uk-grid uk-container-center uk-text-center">
                     <div class="uk-width-1-3">
                         <i class="uk-icon-copyright renfrew-icon-xlarge"></i><br />
-                        <span>Copyright &amp; Itellectual Property</span>
+                        <span>Copyright &amp; Intellectual Property</span>
                     </div>
                     <div class="uk-width-1-3">
                         <i class="uk-icon-group renfrew-icon-xlarge"></i><br />
-                        <span>Family &amp; Defacto Law</span>
+                        <span>Family &amp; De-facto Law</span>
                     </div>
                     <div class="uk-width-1-3">
                         <i class="uk-icon-gavel renfrew-icon-xlarge"></i><br />
@@ -99,6 +101,36 @@
     </section>
 
     <div style="clear: both;"></div>
+
+    <!-- Conveyancing -->
+    <section id="conveyancing">
+        
+
+
+
+        <div class="uk-grid">
+            <div class="uk-width-small-1-1 uk-container-center" style="padding-top: 35px;">
+                <header class="uk-text-center">
+                    <h1 class="uk-margin-large-bottom">Conveyancing</h1>
+                    <p>Affordable fixed fee conveyancing (
+                    <span class="ren-yellow uk-text-bold">$1,350.00</span> 
+                    inclusive of all disbursements)<br />
+                    We focus on delivering a competent, hassle free, personalised service without compromise.</p>
+                </header>
+                <div class="uk-grid" style="margin-top:-25px;">
+                    <div class="uk-container-center uk-margin-bottom">
+                    <a href="conveyancing.php" class="uk-button uk-button-primary uk-button-large">Find out what's included</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        
+    </section>
+    
+     
 
     <!-- Location -->
     <section id="location">

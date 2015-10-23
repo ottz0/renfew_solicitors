@@ -1,7 +1,7 @@
 <html class="uk-height-1-1">
     <head>
         <title>Renfew Solicitors - Newcastle NSW</title>
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0" />
         <link rel="stylesheet" href="css/renfrew-main.min.css">
         <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,300|Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
     </head>

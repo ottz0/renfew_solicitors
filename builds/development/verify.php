@@ -1,7 +1,7 @@
 <html class="uk-height-1-1">
     <head>
         <title>Renfew Solicitors - Newcastle NSW</title>
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0" />
         <!-- build:css css/renfrew-main.min.css -->
         <link rel="stylesheet" href="css/renfrew-main.css" />
         <!-- /build -->

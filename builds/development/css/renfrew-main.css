@@ -8452,15 +8452,37 @@ Overide default uikit css
 Global styles
 
 ***************************/
+html {
+  -webkit-text-size-adjust: 100%;
+}
 header h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 6em;
   font-weight: 500;
   padding-top: 65px;
 }
-@media (max-width: 959px) {
+@media (min-width: 20px) and (max-width: 359px) {
   header h1 {
-    font-size: 5em;
+    font-size: 2.8em;
+  }
+}
+@media (min-width: 360px) and (max-width: 479px) {
+  header h1 {
+    font-size: 3.4em;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  header h1 {
+    font-size: 5.4em;
+  }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+  header h1 {
+    font-size: 6em;
+  }
+}
+@media (min-width: 960px) {
+  header h1 {
+    font-size: 7.4em;
   }
 }
 header p {
@@ -8472,6 +8494,15 @@ header p {
   header p {
     font-size: 1.1em;
   }
+}
+.ren-yellow {
+  color: #e0a833;
+}
+.ren-white {
+  color: #fff;
+}
+.ren-txt-sm {
+  font-size: 65%;
 }
 /***************************
 
@@ -8574,6 +8605,58 @@ Thene styles
 }
 #services-top {
   padding-bottom: 20px;
+}
+/***************************
+
+Conveyancing section
+
+***************************/
+#conveyancing {
+  height: 400px;
+  background-image: url('../images/conveyancing-bg.gif');
+  background-repeat: repeat repeat;
+}
+#conveyancing h1,
+#conveyancing h3 {
+  color: #e0a833;
+}
+#conveyancing p {
+  color: #fff;
+}
+#conveyancing-page {
+  background-image: url('../images/conveyancing-bg.gif');
+  background-repeat: repeat repeat;
+}
+#conveyancing-page h1,
+#conveyancing-page h3 {
+  color: #e0a833;
+}
+#conveyancing-page p {
+  color: #fff;
+}
+.convey-type ul {
+  color: #fff;
+  list-style-type: none;
+  font-size: 110%;
+}
+.convey-type li {
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 479px) {
+  #convey-bt {
+    margin: 25px 0 25px 0;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  #convey-bt {
+    margin: 25px 0 25px 0;
+  }
+}
+@media (max-width: 479px) {
+  #ren-bullet-block {
+    margin-left: 0;
+  }
 }
 /***************************
 

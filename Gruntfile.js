@@ -96,6 +96,12 @@ module.exports = function(grunt) {
             src: 'verify.php', 
             dest: 'builds/distribution'
           },
+          {
+            expand: true,
+            cwd: 'builds/development',
+            src: 'conveyancing.php', 
+            dest: 'builds/distribution'
+          },
         ],
       }
     },
@@ -104,6 +110,7 @@ module.exports = function(grunt) {
         build: {
             files: {
                 'builds/distribution/index.php' : ['builds/distribution/index.php'],
+                'builds/distribution/conveyancing.php' : ['builds/distribution/conveyancing.php'],
                 'builds/distribution/verify.php' : ['builds/distribution/verify.php'],
             }
         }
